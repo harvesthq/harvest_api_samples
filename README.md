@@ -11,3 +11,4 @@ A few of our users have implemented their own Harvest API wrappers. If you plan 
 * **PHP**: [HaPi - PHP Harvest API](http://labs.mdbitz.com/harvest-api/), by Matthew Denton
 * **Python**: [Harvest API Wrapper in Python](http://github.com/brianglass/Harvest), by Brian Glass
 * **Drupal**: [Harvest Module for Drupal](http://drupal.org/project/harvest), by ImageX Media
+* **Java**: [Harvest-client](http://github.com/moffermann/harvest-client), by Mauricio Offermann
