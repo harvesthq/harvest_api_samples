@@ -16,3 +16,4 @@ A few of our users have implemented their own Harvest API wrappers. If you plan 
 ### Scripts
 
 Userscript: [Toggle rounded time on timesheet](http://userscripts.org/scripts/show/95503), by Tim DeMoss
+Userscript: [Toggle rounded time on detailed time report](http://userscripts.org/scripts/show/95575), by Tim DeMoss
