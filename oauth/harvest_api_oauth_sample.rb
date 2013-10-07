@@ -10,8 +10,8 @@
 # You'll need to change these to match the app you registered at https://platform.harvestapp.com/oauth2_clients
 # Running this locally? Make sure you use http://localhost:4567/oauth_redirect for the redirect URL
 
-CLIENT_ID = "su4qX/igjUPcEdYMS/Ialg=="
-CLIENT_SECRET = "q8wtCmG0Tz54R7CzditlWSEVJnIG44zQbZxHeL0OD/xbjxExuh2vWBYAWcvCXUCK2J6D4ANvFRIl5sBr0iUB5A=="
+CLIENT_ID = "Your client's ID goes here"
+CLIENT_SECRET = "Your client's secret goes here"
 
 # And the rest should now work
 
