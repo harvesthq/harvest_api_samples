@@ -3,7 +3,7 @@
         $credentials = "your_email_address:your_passwordpassword";
         // just a sample below naturally you need to replace this with the right project and taks ids, as you cannot access these.
         $xml_data = "<request> <notes>qwer</notes> <hours>0.25</hours> <project_id>75406</project_id> <task_id>93182</task_id> <spent_at>Fri, 08 Feb 2008</spent_at> </request>";
-        $url = "http://YOURDOMAIN.harvestapp.com/daily/add";
+        $url = "https://YOURDOMAIN.harvestapp.com/daily/add";
 
         $headers = array(
             "Content-type: application/xml",
