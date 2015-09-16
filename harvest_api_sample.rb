@@ -141,7 +141,7 @@ class Harvest
     port = has_ssl ? 443 : 80
     @connection             = Net::HTTP.new("#{@company}.harvestapp.com", port)
     @connection.use_ssl     = has_ssl
-    @connection.verify_mode = OpenSSL::SSL::VERIFY_NONE if has_ssl
+    @connection.verify_mode = OpenSSL::SSL::VERIFY_PEER if has_ssl
   end
 
   def has_ssl
