@@ -22,10 +22,6 @@ using System.Net.Security;
 class HarvestSample
 {
 
-   public static bool Validator (object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) {
-     return true;
-   }
-
    static void Main(string[] args)
    {
       HttpWebRequest request; 
@@ -37,8 +33,6 @@ class HarvestSample
       string username="youremail@somewhere.com";
       string password="yourharvestpassword";
       string usernamePassword = username + ":" + password;
-
-      ServicePointManager.ServerCertificateValidationCallback = Validator;
 
       try
       { 
