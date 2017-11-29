@@ -14,6 +14,17 @@ and account ID from Harvest ID.
 
 #### MacOS
 
+`export HARVEST_ACCOUNT_ID=<Your Harvest account ID>`
+`export HARVEST_ACCESS_TOKEN=<Your Harvest access token>`
+
+For example, if your access token is "foobar123" and your account ID is
+"987654", then you'll want to:
+
+```
+export HARVEST_ACCOUNT_ID=foobar123
+export HARVEST_ACCESS_TOKEN=987654
+```
+
 #### Windows
 
 `set HARVEST_ACCOUNT_ID=<Your Harvest account ID>`
