@@ -3,4 +3,4 @@ $Headers = @{}
 $Headers.Add("Authorization", "Bearer " + $Env:HARVEST_ACCESS_TOKEN)
 $Headers.Add("Harvest-Account-ID", $Env:HARVEST_ACCOUNT_ID)
 
-Invoke-WebRequest -Uri $Url -Headers $Headers | ConvertFrom-Json
+[system.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri $Url -Headers $Headers).RawContentStream.ToArray()) | ConvertFrom-Json 
