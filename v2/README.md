@@ -23,8 +23,8 @@ For example, if your access token is "foobar123" and your account ID is
 "987654", then you'll want to:
 
 ```
-export HARVEST_ACCOUNT_ID=foobar123
-export HARVEST_ACCESS_TOKEN=987654
+export HARVEST_ACCOUNT_ID=987654
+export HARVEST_ACCESS_TOKEN=foobar123
 ```
 
 #### Windows
@@ -38,6 +38,6 @@ For example, if your access token is "foobar123" and your account ID is
 "987654", then you'll want to:
 
 ```
-set HARVEST_ACCOUNT_ID=foobar123
-set HARVEST_ACCESS_TOKEN=987654
+set HARVEST_ACCOUNT_ID=987654
+set HARVEST_ACCESS_TOKEN=foobar123
 ```
